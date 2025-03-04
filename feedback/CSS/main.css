@@ -1,0 +1,34 @@
+html {
+    background-color: black;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+header {
+    border-color: white;
+    border: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+
+.q1, .q2, .q3, .q4{
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(0, 255, 149);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 117, 68);
+}
+
+li {
+    display: inline;
+}
+
+.q0 {
+    color: rgb(0, 255, 149);
+}
