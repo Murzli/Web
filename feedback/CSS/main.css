@@ -3,63 +3,82 @@
 body {
     background-image: url(/CSS/imeg/fahrul-razi-BR6lrzCPYPk-unsplash.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    
-
+    background-size: 150%;
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
 }
 
 /*верхняя понель*/
 header {
-    border-color: white;
-    border: 20px;
+    background-color: rgb(26, 26, 26);
+    padding-top: 9px;
+    padding-bottom: 9px;
 }
 
-ul {
+ul{
+    
     margin: 0;
-    padding: 20px;
 }
-
-.q1, .q2, .q3, .q4{
-    font-size: 20px;
-    padding: 20px;
-    color: rgb(0, 255, 149);
+.name {
     text-decoration: none;
+    padding-top: 10px;
+    font-size: 26px;
+    margin-left: 10px;
+    color: rgb(100, 255, 69);
+    padding-right: 855px;
 }
 
-a:hover {
-    color: rgb(0, 117, 68);
+.planet {
+    padding-top: 8px;
+    padding-left: 1555px;
+    position: absolute; top: 0;
 }
 
 li {
     display: inline;
+    
+}
+.q1, .q2, .q3, .q4{
+    
+    padding-left: 20px;
+    font-size: 20px;
+    color: rgb(100, 255, 69);
+    text-decoration: none;
 }
 
-.q0 {
-    color: rgb(0, 255, 149);
+a:hover {
+    color: rgb(70, 70, 70);
 }
+
+
+
+
+
+
+
 
 /*Текст*/
 .info {
-    margin-right: 10px;
-    border-radius: 20px;
-    background-color:rgb(48, 48, 48);
-    width: ;
     margin-left: 20%;
-    margin-right: 0;
+    margin-top: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color:rgb(27, 27, 27);
+    margin-right: 30px;
 }
 
 p{
-    
     margin-top: 5px;
     margin-bottom: 5px;
 }
 .text {
     padding: 10px;
-    font-size: 30px;
-    text-align: justify;
+    font-size: 20px;
     color: white;
-    font-family: "JetBrains Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+}
+
+.gradient {
+    background: linear-gradient(to right, #ff0000, #ff9100, #73ff00, #00ff73, #00f7ff, #0026ff, #ff0095);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
