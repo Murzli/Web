@@ -1,5 +1,4 @@
 
-
 body {
     background-image: url(/CSS/imeg/fahrul-razi-BR6lrzCPYPk-unsplash.jpg);
     background-repeat: no-repeat;
@@ -9,62 +8,85 @@ body {
 }
 
 /*верхняя понель*/
-header {
-    background-color: rgb(26, 26, 26);
-    padding-top: 9px;
-    padding-bottom: 9px;
+
+header{
+	width: 100%;
+	background: rgb(26, 26, 26);
+	height: 55px;
+    position: fixed;
+    top:0;
 }
 
-ul{
-    
-    margin: 0;
-}
-.name {
-    text-decoration: none;
-    padding-top: 10px;
-    font-size: 26px;
+.title{
+	font-size: 30px;
+	padding-top: 5px;
     margin-left: 10px;
-    color: rgb(100, 255, 69);
-    padding-right: 855px;
+
 }
 
-.planet {
-    padding-top: 8px;
-    padding-left: 1555px;
-    position: absolute; top: 0;
+.a1 {
+    color: rgb(100, 255, 69);
+    text-decoration: none;
+}
+
+.a1:hover {
+    color: rgb(100, 255, 69);
+}
+
+.menu{
+	list-style: none;
+	position: absolute;
+    top:0;
+	right: 55px;
+    margin-top: 15px;
 }
 
 li {
+    
     display: inline;
-    
 }
-.q1, .q2, .q3, .q4{
-    
-    padding-left: 20px;
-    font-size: 20px;
+
+
+.planet {
+    padding-top: 8px;
+    right: 0px;
+    position: absolute; top: 0;
+}
+
+ul {
+   margin: 0; 
+}
+
+.q1 {
     color: rgb(100, 255, 69);
     text-decoration: none;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.q2, .q3, .q4{
+    color: rgb(100, 255, 69);
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 20px;
 }
 
 a:hover {
     color: rgb(70, 70, 70);
+    text-decoration: none;
 }
-
-
-
-
-
-
 
 
 /*Текст*/
 .info {
-    margin-left: 20%;
-    margin-top: 50px;
+    width: 65.5%;
+    position: absolute;
+    right: 30px;
+    margin-top: 70px;
     border: none;
     border-radius: 20px;
     background-color:rgb(27, 27, 27);
-    margin-right: 30px;
+    
 }
 
 p{
@@ -73,7 +95,7 @@ p{
 }
 .text {
     padding: 10px;
-    font-size: 20px;
+    font-size: 24.999px;
     color: white;
 }
 
@@ -81,4 +103,9 @@ p{
     background: linear-gradient(to right, #ff0000, #ff9100, #73ff00, #00ff73, #00f7ff, #0026ff, #ff0095);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.p1 {
+    color: #646464;
+    margin-top: 24px;
 }
